@@ -68,7 +68,10 @@ export default function Home() {
             onChange={handleChange}
             className="flex-1 px-4 py-3 bg-neutral-700 border border-neutral-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-violet-500 transition-all text-sm md:text-base"
           />
-          <button type="submit" className="px-6 py-3 bg-gradient-to-r from-violet-600 to-violet-700 text-white font-medium rounded-lg hover:from-violet-700 hover:to-violet-800 transition-all shadow-md hover:shadow-violet-900/30">
+          <button
+            type="submit"
+            className="px-6 py-3 bg-gradient-to-r from-violet-600 to-violet-700 text-white font-medium rounded-lg hover:from-violet-700 hover:to-violet-800 transition-all shadow-md hover:shadow-violet-900/30 cursor-pointer"
+          >
             Tambah
           </button>
         </form>
